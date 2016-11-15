@@ -25,12 +25,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let boardStore = [Board]()
         boardViewController.boardStore = boardStore
         
-        /*
-        let listStore = [List]()
-        let listViewController = rootViewController. as! ListViewController
-        listViewController.listStore = listStore
-        */
-        
         return true
     }
 

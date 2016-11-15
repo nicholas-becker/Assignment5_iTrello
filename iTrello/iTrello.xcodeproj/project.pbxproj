@@ -15,6 +15,7 @@
 		23358D091DC82F1900B99C06 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23358D081DC82F1900B99C06 /* Assets.xcassets */; };
 		23358D0C1DC82F1900B99C06 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23358D0A1DC82F1900B99C06 /* LaunchScreen.storyboard */; };
 		23358D141DC832F300B99C06 /* TrelloAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23358D131DC832F300B99C06 /* TrelloAPI.swift */; };
+		23CE30ED1DDA376F0034B9DC /* CardDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23CE30EC1DDA376F0034B9DC /* CardDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		23358D0B1DC82F1900B99C06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		23358D0D1DC82F1900B99C06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		23358D131DC832F300B99C06 /* TrelloAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrelloAPI.swift; sourceTree = "<group>"; };
+		23CE30EC1DDA376F0034B9DC /* CardDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 				23358D031DC82F1900B99C06 /* BoardViewController.swift */,
 				233159BD1DD970CA00DFCFB9 /* ListViewController.swift */,
 				233159BB1DD9632E00DFCFB9 /* CardViewController.swift */,
+				23CE30EC1DDA376F0034B9DC /* CardDetailViewController.swift */,
 				23358D051DC82F1900B99C06 /* Main.storyboard */,
 				23358D081DC82F1900B99C06 /* Assets.xcassets */,
 				23358D0A1DC82F1900B99C06 /* LaunchScreen.storyboard */,
@@ -145,6 +148,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				23358D141DC832F300B99C06 /* TrelloAPI.swift in Sources */,
+				23CE30ED1DDA376F0034B9DC /* CardDetailViewController.swift in Sources */,
 				23358D041DC82F1900B99C06 /* BoardViewController.swift in Sources */,
 				233159BC1DD9632E00DFCFB9 /* CardViewController.swift in Sources */,
 				233159BE1DD970CA00DFCFB9 /* ListViewController.swift in Sources */,
